@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extendreports>
+	<configuration>
+		<encoding>UTF-8</encoding>
+		<documentTitle>Cucumber Extent Reports -v1.0.0</documentTitle>
+		<reportName>My project-Cucumber Report</reportName>
+		<reportHeadline> -v1.0.0</reportHeadline>
+	</configuration>
+</extendreports>

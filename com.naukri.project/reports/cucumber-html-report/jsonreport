@@ -1,0 +1,360 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Test Login with valid credentials such as username and password",
+        "description": "",
+        "id": "test-scenarios-of-naukri;test-login-with-valid-credentials-such-as-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35270124749,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open browser and start application naukri",
+            "match": {
+              "location": "loginpage_stepdefinition.open_browser_and_start_application_naukri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1921347373,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the  jayanthimala.p27@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jayanthimala.p27@gmail.com",
+                  "offset": 11
+                }
+              ],
+              "location": "loginpage_stepdefinition.enter_the(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107095377,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enter jaya@1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jaya@1234",
+                  "offset": 11
+                }
+              ],
+              "location": "loginpage_stepdefinition.user_enter(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8036819369,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select login",
+            "match": {
+              "location": "loginpage_stepdefinition.select_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TC1_Naukri"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Test logout",
+        "description": "",
+        "id": "test-scenarios-of-naukri;test-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42622724749,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Open chrome and start naukri application",
+            "match": {
+              "location": "logout_stepdefinition.open_chrome_and_start_naukri_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2857534786,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters valid username and password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 18
+                },
+                {
+                  "val": "password",
+                  "offset": 31
+                }
+              ],
+              "location": "logout_stepdefinition.user_enters_valid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114743644,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user must able to login",
+            "match": {
+              "location": "logout_stepdefinition.user_must_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11349959958,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user selects logout",
+            "match": {
+              "location": "logout_stepdefinition.user_selects_logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@TC2_Naukri"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Test search for job",
+        "description": "",
+        "id": "test-scenarios-of-naukri;test-search-for-job",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38913955105,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Open the browser and start url",
+            "match": {
+              "location": "searchjob_stepdefinition.open_the_browser_and_start_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 478127337,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user selects the required search field",
+            "match": {
+              "location": "searchjob_stepdefinition.user_selects_the_required_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 324929779,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "enter the  job and location fields",
+            "match": {
+              "location": "searchjob_stepdefinition.enter_the_job_and_location_fields()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 437606171,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "select search field",
+            "match": {
+              "location": "searchjob_stepdefinition.select_search_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@TC3_Naukri"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "profile update test",
+        "description": "",
+        "id": "test-scenarios-of-naukri;profile-update-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31184058332,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "launch the chrome browser and the url",
+            "match": {
+              "location": "Profileupdate_stepdefinition.launch_the_chrome_browser_and_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1501388929,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "enter valid details such as username and password",
+            "match": {
+              "location": "Profileupdate_stepdefinition.enter_valid_details_such_as_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41715870042,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user selects the profile update option",
+            "match": {
+              "location": "Profileupdate_stepdefinition.user_selects_the_profile_update_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7023187586,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verify the email",
+            "match": {
+              "location": "Profileupdate_stepdefinition.verify_the_email()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@TC4_Naukri"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "appplying for job in naukri",
+        "description": "",
+        "id": "test-scenarios-of-naukri;appplying-for-job-in-naukri",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37658597900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "lauch browser and start app",
+            "match": {
+              "location": "applyjob_stepdefinition.lauch_browser_and_start_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 406783911,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "enter the valid credentials username and password",
+            "match": {
+              "location": "applyjob_stepdefinition.enter_the_valid_credentials_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6328900792,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "view the required job",
+            "match": {
+              "location": "applyjob_stepdefinition.view_the_required_job()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16808151808,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "apply for it",
+            "match": {
+              "location": "applyjob_stepdefinition.apply_for_it()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 34,
+            "name": "@TC5_Naukri"
+          }
+        ]
+      }
+    ],
+    "name": "Test Scenarios of Naukri",
+    "description": "",
+    "id": "test-scenarios-of-naukri",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/eclipse-seleniumproject/com.naukri.project/features1/naukrifeatures.feature"
+  }
+]
